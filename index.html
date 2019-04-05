@@ -4,24 +4,172 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Project-2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="page-header">
-		<div class="logo">
-			<img src="" alt="Логотип">	
+		<div id="logo" onclick="slowScroll('#top')">			
+			<span>ScooteRent</span>	
 		</div>
 		<div class="main-menu">
 			<ul>
-				<li>page 1</li>
-				<li>page 1</li>
-				<li>page 1</li>
+				<li><a href="#" onclick="slowScroll('#main')">О нас</a></li>
+				<li><a href="#" onclick="slowScroll('#models')">Модельный ряд</a></li>
+				<li><a href="#"onclick="slowScroll('#prise')">Стоимость аренды</a></li>
+				<li><a href="#" onclick="slowScroll('#location')">Месторасположение</a></li>
 			</ul>
 		</div>
 		<div class="contacts">
-			<span>Позвоните нам!</span>
+			<span>Позвоните нам!</span><br>
 			<span>+7 (9**) ***-**-**</span>
 		</div>
 	</header>
+	<div id="top">
+		<h1>Прокат электросамокатов</h1>
+		<h3>Попробуй скорость!</h3>
+	</div>
+	<main id="main">
+		<section id="intro">
+			<h2>Почему мы?</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aliquid sint a voluptatem facere mollitia aut eveniet velit optio aliquam voluptas rerum officiis laborum totam voluptates illum quidem temporibus quibusdam, sed impedit maxime nulla aspernatur. Numquam vero quidem sit, dolor fugiat ex, laborum eos, quo id harum, tenetur nobis voluptatem.</span>
+		</section>
+		<section id="models">
+			<h2>Каталог моделей</h2>
+			<div class="model">
+				<h4>Koogoo S2</h4>
+				<img src="img/catalog/kugoo.jpg" alt="Koogoo S2">
+				<p>Практичный в использовании.Благодаря восьми дюймовым колесам, KUGOO S2  идеален при поездке по неровным поверхностям. А размер шин облегчает транспортировку самоката оставляя возможность преодоления небольших преград. Приятным окажется наличие амортизатора..</p>
+				<table>
+					<tr>
+						<td>Пробег на одном заряде</td>
+						<td>30 км</td>
+					</tr>
+					<tr>
+						<td>Мощность двигателя</td>
+						<td>350 Вт</td>
+					</tr>
+					<tr>
+						<td>Максимальная скорость</td>
+						<td>35 км/ч</td>
+					</tr>
+					<tr>
+						<td>Подсветка</td>
+						<td>фонарь</td>
+					</tr>
+					<tr>
+						<td>Вес гироскутера</td>
+						<td>11 кг</td>
+					</tr>
+					<tr>
+						<td>Год выпуска</td>
+						<td>2017</td>
+					</tr>
+					<tr>
+						<td>Наличие бортового компьютера</td>
+						<td>есть</td>
+					</tr>
+				</table>
+			</div>
+			<div class="model">
+				<h4>Koogoo S3</h4>
+				<img src="img/catalog/kugoo.jpg" alt="Koogoo S3">
+				<p>Электросамокат Kugoo S3 – это улучшенная версия 2018 года. Его можно сложить не только пополам, также складываются рукоятки руля. Так, самокат можно хранить даже дома, брать с собой в общественный транспорт, магазин или офис.</p>
+				<table>
+					<tr>
+						<td>Пробег на одном заряде</td>
+						<td>30 км</td>
+					</tr>
+					<tr>
+						<td>Мощность двигателя</td>
+						<td>350 Вт</td>
+					</tr>
+					<tr>
+						<td>Максимальная скорость</td>
+						<td>35 км/ч</td>
+					</tr>
+					<tr>
+						<td>Подсветка</td>
+						<td>фонарь</td>
+					</tr>
+					<tr>
+						<td>Вес гироскутера</td>
+						<td>11 кг</td>
+					</tr>
+					<tr>
+						<td>Год выпуска</td>
+						<td>2017</td>
+					</tr>
+					<tr>
+						<td>Наличие бортового компьютера</td>
+						<td>есть</td>
+					</tr>
+				</table>
+			</div>
+			<div class="model">
+				<h4>XIAOMI MIJIA M365</h4>
+				<img src="img/catalog/xiaomi.jpg" alt="XIAOMI MIJIA M365">
+				<p>Самокат Миджия отлично зарекомендовал себя в 2017 году и не уступает новинкам сейчас. Дизайн выгодно отличает его среди конкурентов, а запас хода составляет уже 30 км. Этот самокат как Мерседес, ты едешь быстро, далеко и получаешь настоящее удовольствие!</p>
+				<table>
+					<tr>
+						<td>Пробег на одном заряде</td>
+						<td>30 км</td>
+					</tr>
+					<tr>
+						<td>Мощность двигателя</td>
+						<td>350 Вт</td>
+					</tr>
+					<tr>
+						<td>Максимальная скорость</td>
+						<td>35 км/ч</td>
+					</tr>
+					<tr>
+						<td>Подсветка</td>
+						<td>фонарь</td>
+					</tr>
+					<tr>
+						<td>Вес гироскутера</td>
+						<td>11 кг</td>
+					</tr>
+					<tr>
+						<td>Год выпуска</td>
+						<td>2017</td>
+					</tr>
+					<tr>
+						<td>Наличие бортового компьютера</td>
+						<td>есть</td>
+					</tr>
+				</table>
+			</div>						
+		</section>
+		<section id="prise">
+			
+		</section>
+		<section id="location">
+			
+		</section>		
+	</main>
+	<footer>
+		<div id="logo" onclick="slowScroll('#top')">			
+			<span>ScooteRent</span>	
+		</div>		
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
+	<script>
+		function slowScroll(id) {                
+			$('html, body').animate({
+				scrollTop: $(id).offset().top
+			}, 500);
+		}
+
+		$(document).on("scroll", function () {    
+			if($(window).scrollTop() === 0)
+				$("header").removeClass("fixed");
+			else
+				$("header").attr("class", "fixed");
+		})
+
+	</script>	
 </body>
 </html>

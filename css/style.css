@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	width: 95%;	
+	margin: 10px 2.5% 0;
+	background-color: transparent;	
+	border: 3px solid white;
+	border-radius: 10px;	
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	color: #fff;	
+}
+
+header div {	
+	text-align: center;	
+	font-size:1.3em;	  	  	  	
+}
+
+header #logo span  {	
+	font-size: 2em;
+	font-family: 'Permanent Marker', cursive;	
+	text-shadow: 2px -2px 0 silver;
+	cursor: pointer;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+header ul a {
+	margin-right: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header ul a:hover {
+	color: silver;
+}
+
+.fixed {
+	z-index: 5000;
+	background-color: #2D2D2D;
+	border-color:white;
+}
+
+#top {
+	width: 100%;
+	height: 900px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5em;	
+	text-align: center;
+	background: url("../img/logo/1.jpg") ;	
+	background-size: cover;
+	border: 1px solid transparent;
+	color: #fff;
+}
+
+#top h1 {
+	padding-top: 15%;
+}
+
+#intro {
+	padding: 60px 10%;
+}
+
+
+
+#models {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	background: url("../img/background/2.jpg");
+	
+
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#models h2 {
+	width :20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 2em;
+	text-align: center;	
+	display: block;
+	position: absolute;
+	top: 7%;
+	left: 40%;
+    background-color: rgba(245,245,245, 0.5); 
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+
+#models .model {
+	width: 30%;
+	margin-top: 15%;
+	margin-bottom: 15%;	
+	text-align: center;
+	background-color: rgba(245,245,245, 0.5);
+	border: 2px solid silver;
+	border-radius: 3%
+}
+
+#models .model:hover {
+	background-color: rgba(245,245,245, 1);
+}
+
+#models .model img {
+	width: 75%;
+	border: 2px solid silver;
+	border-radius: 3%;	
+}
+
