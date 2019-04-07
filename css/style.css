@@ -26,7 +26,8 @@ header {
 
 header div {	
 	text-align: center;	
-	font-size:1.3em;	  	  	  	
+	font-size:1.3em;	
+
 }
 
 header #logo span  {	
@@ -34,6 +35,7 @@ header #logo span  {
 	font-family: 'Permanent Marker', cursive;	
 	text-shadow: 2px -2px 0 silver;
 	cursor: pointer;
+
 }
 
 header ul {
@@ -75,10 +77,8 @@ header ul a:hover {
 }
 
 #intro {
-	padding: 60px 10%;
+	padding: 80px 10%;
 }
-
-
 
 #models {
 	width: 100%;
@@ -86,8 +86,6 @@ header ul a:hover {
 	justify-content: space-around;
 	position: relative;
 	background: url("../img/background/2.jpg");
-	
-
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -108,22 +106,86 @@ header ul a:hover {
 }
 
 #models .model {
-	width: 30%;
-	margin-top: 15%;
-	margin-bottom: 15%;	
+	width: 20%;
+	height: 70%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-size: 0.6em;	
 	text-align: center;
-	background-color: rgba(245,245,245, 0.5);
+	background-color: rgb(245,245,245);
+	opacity: 0.5;
 	border: 2px solid silver;
-	border-radius: 3%
+	border-radius: 3%;
+	transition-duration: 1s
 }
 
 #models .model:hover {
-	background-color: rgba(245,245,245, 1);
+	width: 30%;
+	font-size: 0.9em;
+	background-color: rgb(245,245,245);
+	opacity: 1;
 }
 
 #models .model img {
 	width: 75%;
 	border: 2px solid silver;
-	border-radius: 3%;	
+	border-radius: 3%;
+	opacity: 1;	
 }
 
+#models .model p {	
+	margin:10px 12%;	
+}
+
+#models .model table {	
+	margin:10px 20%;	
+}
+
+#price {	
+	margin: 30px 5%;
+	padding: 60px 35%;
+	border: 2px solid silver;
+	border-radius: 10px;
+}
+
+#location {
+	display: flex;
+}
+
+#location div {
+	width: 40%;
+	margin: 30px 5%;	
+	border: 2px solid silver;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+footer {
+	width: 100%;
+	height: 100px;	
+	background-color: #2D2D2D;	
+	border-top: 3px solid silver;		
+	display: flex;
+	justify-content: space-around;	
+	color: #fff;	
+}
+
+footer #logo span  {	
+	font-size: 2em;
+	font-family: 'Permanent Marker', cursive;	
+	text-shadow: 2px -2px 0 silver;
+	cursor: pointer;
+
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+footer ul a {
+	margin-right: 20px;
+	color: #fff;
+	text-decoration: none;
+}
