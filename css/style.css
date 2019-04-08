@@ -57,7 +57,7 @@ header ul a:hover {
 .fixed {
 	z-index: 5000;
 	background-color: #2D2D2D;
-	border-color:white;
+	border-color:silver;
 }
 
 #top {
@@ -104,7 +104,7 @@ header ul a:hover {
 	text-align: center;	
 	display: block;
 	position: absolute;
-	top: 7%;
+	top: 3%;
 	left: 40%;
     background-color: rgb(245,245,245); 
     opacity: 0.5;
@@ -158,9 +158,7 @@ header ul a:hover {
 	box-sizing: border-box;	
 	width: 95%;
 	margin: 30px 2.5%;
-	padding: 60px 35%;
-	border: 2px solid silver;
-	border-radius: 10px;
+	padding: 60px 35%;	
 	opacity: 0.1;
 	transition-duration: 1s;
 }
